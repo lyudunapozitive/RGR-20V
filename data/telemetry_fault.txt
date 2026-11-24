@@ -1,0 +1,3 @@
+# Аварійний сценарій: перегрів стійки у зоні 3
+RACK=RACK-A01 | ZONE=1 | TEMP=25.1C | POWER=6.0kW  | SERVERS=16 | MAX_TEMP=38.0C
+RACK=RACK-C01 | ZONE=3 | TEMP=44.8C | POWER=18.5kW | SERVERS=36 | MAX_TEMP=38.0C

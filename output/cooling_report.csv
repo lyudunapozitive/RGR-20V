@@ -1,0 +1,4 @@
+zone_id,crac_id,rack_count,total_power_kw,peak_rack_id,peak_temp_c,base_airflow_m3h,adaptive_factor,target_airflow_m3h,fan_pwm_percent,mode_name,register_word,register_hex,fault_active
+1,CRAC-Z1,2,11.0,RACK-A02,25.0,3648.42,0.91,3320.07,33.87,BALANCED,9569,0x2561 (0b0010010101100001),False
+2,CRAC-Z2,2,19.7,RACK-B02,29.6,6534.0,1.12,7318.08,64.33,BALANCED,10818,0x2A42 (0b0010101001000010),False
+3,CRAC-Z3,2,24.5,RACK-C01,33.5,8126.04,1.4125,11478.03,96.02,EMERGENCY,20307,0x4F53 (0b0100111101010011),False

@@ -4,6 +4,7 @@
 Спеціальність: F7 «Комп'ютерна інженерія». Варіант 20.
 """
 
+from cooling_controller.controller import ControlDecision, PrecisionCoolingController
 from cooling_controller.exceptions import (
     AirflowLimitError,
     ConfigurationError,
@@ -14,8 +15,15 @@ from cooling_controller.exceptions import (
 )
 from cooling_controller.hardware_register import CoolingMode, HardwareTelemetryRegister
 from cooling_controller.models import CRACUnit, ServerRack, ThermalNode
+from cooling_controller.parser import parse_telemetry_line, parse_telemetry_lines
+from cooling_controller.storage import (
+    load_state_json,
+    load_telemetry_file,
+    save_decisions_csv,
+    save_state_json,
+)
 
-__version__ = "0.2.0"
+__version__ = "0.4.0"
 
 __all__ = [
     "__version__",
@@ -30,4 +38,12 @@ __all__ = [
     "ThermalNode",
     "ServerRack",
     "CRACUnit",
+    "ControlDecision",
+    "PrecisionCoolingController",
+    "parse_telemetry_line",
+    "parse_telemetry_lines",
+    "load_telemetry_file",
+    "save_state_json",
+    "load_state_json",
+    "save_decisions_csv",
 ]

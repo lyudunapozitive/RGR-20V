@@ -1,0 +1,111 @@
+{
+  "generated_at_utc": "2026-11-24T11:55:42+00:00",
+  "zone_count": 3,
+  "rack_count": 6,
+  "decisions": [
+    {
+      "zone_id": 1,
+      "crac_id": "CRAC-Z1",
+      "rack_count": 2,
+      "total_power_kw": 11.0,
+      "peak_rack_id": "RACK-A02",
+      "peak_temp_c": 25.0,
+      "base_airflow_m3h": 3648.42,
+      "adaptive_factor": 0.91,
+      "target_airflow_m3h": 3320.07,
+      "fan_pwm_percent": 33.87,
+      "mode_name": "BALANCED",
+      "register_word": 9569,
+      "register_hex": "0x2561 (0b0010010101100001)",
+      "fault_active": false
+    },
+    {
+      "zone_id": 2,
+      "crac_id": "CRAC-Z2",
+      "rack_count": 2,
+      "total_power_kw": 19.7,
+      "peak_rack_id": "RACK-B02",
+      "peak_temp_c": 29.6,
+      "base_airflow_m3h": 6534.0,
+      "adaptive_factor": 1.12,
+      "target_airflow_m3h": 7318.08,
+      "fan_pwm_percent": 64.33,
+      "mode_name": "BALANCED",
+      "register_word": 10818,
+      "register_hex": "0x2A42 (0b0010101001000010)",
+      "fault_active": false
+    },
+    {
+      "zone_id": 3,
+      "crac_id": "CRAC-Z3",
+      "rack_count": 2,
+      "total_power_kw": 24.5,
+      "peak_rack_id": "RACK-C01",
+      "peak_temp_c": 33.5,
+      "base_airflow_m3h": 8126.04,
+      "adaptive_factor": 1.4125,
+      "target_airflow_m3h": 11478.03,
+      "fan_pwm_percent": 96.02,
+      "mode_name": "EMERGENCY",
+      "register_word": 20307,
+      "register_hex": "0x4F53 (0b0100111101010011)",
+      "fault_active": false
+    }
+  ],
+  "racks": [
+    {
+      "unit_id": "RACK-A01",
+      "zone_id": 1,
+      "temperature_c": 24.2,
+      "max_temp_c": 38.0,
+      "power_kw": 5.2,
+      "server_count": 14,
+      "overheated": false
+    },
+    {
+      "unit_id": "RACK-A02",
+      "zone_id": 1,
+      "temperature_c": 25.0,
+      "max_temp_c": 38.0,
+      "power_kw": 5.8,
+      "server_count": 16,
+      "overheated": false
+    },
+    {
+      "unit_id": "RACK-B01",
+      "zone_id": 2,
+      "temperature_c": 28.4,
+      "max_temp_c": 38.0,
+      "power_kw": 9.5,
+      "server_count": 24,
+      "overheated": false
+    },
+    {
+      "unit_id": "RACK-B02",
+      "zone_id": 2,
+      "temperature_c": 29.6,
+      "max_temp_c": 38.0,
+      "power_kw": 10.2,
+      "server_count": 26,
+      "overheated": false
+    },
+    {
+      "unit_id": "RACK-C01",
+      "zone_id": 3,
+      "temperature_c": 33.5,
+      "max_temp_c": 38.0,
+      "power_kw": 13.5,
+      "server_count": 32,
+      "overheated": false
+    },
+    {
+      "unit_id": "RACK-C02",
+      "zone_id": 3,
+      "temperature_c": 32.1,
+      "max_temp_c": 38.0,
+      "power_kw": 11.0,
+      "server_count": 28,
+      "overheated": false
+    }
+  ]
+}
